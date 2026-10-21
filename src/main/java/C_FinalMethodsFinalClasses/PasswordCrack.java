@@ -13,6 +13,6 @@ public class PasswordCrack extends Password {
 	
 	public static void main(String[] args) {
 		PasswordCrack myCrack=new PasswordCrack();
-		System.out.println(""+myCrack.getPassword());
+		//System.out.println(""+myCrack.getPassword());
 	}
 }

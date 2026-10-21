@@ -7,11 +7,11 @@ public class Password {
 		this.password="Secret";
 	}
 
-	protected final String getPassword() {
+	private final String getPassword() {
 		return password;
 	}
 
-	protected final void setPassword(String password) {
+	private final void setPassword(String password) {
 		this.password = password;
 	}
 }
