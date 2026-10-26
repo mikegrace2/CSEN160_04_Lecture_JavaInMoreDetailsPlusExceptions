@@ -16,8 +16,8 @@ public class Silly {
 		int a = x+1; 
 		
 		while (a > 3) { 
-			//int x = 1; // local variable shadows error: variable x is already defined in method example(int)
-            x =1 ;
+			x = 1; // local variable shadows error: variable x is already defined in method example(int)
+            //x =1 ;
 			a = a - x; 
 		} 
 		
